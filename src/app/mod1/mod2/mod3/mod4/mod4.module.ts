@@ -9,10 +9,22 @@ import { Kt4Component } from './kt4/kt4.component';
 
 
 @NgModule({
-  declarations: [Mod4Component, Kt1Component, Kt2Component, Kt3Component, Kt4Component],
+  declarations: [
+    Mod4Component,
+    Kt1Component,
+    Kt2Component,
+    Kt3Component,
+    Kt4Component
+  ],
   imports: [
     CommonModule
   ],
-  exports: [Mod4Component, Kt1Component, Kt2Component, Kt3Component, Kt4Component]
+  exports: [
+    Mod4Component,
+    Kt1Component,
+    Kt2Component,
+    Kt3Component,
+    Kt4Component
+  ]
 })
 export class Mod4Module { }
